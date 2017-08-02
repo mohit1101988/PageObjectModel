@@ -11,6 +11,7 @@ public class BrowserFactory {
 	static WebDriver driver;
 	static String ProjectPath = System.getProperty("user.dir");
 	
+	
 	public static WebDriver StartBrowser(String browserName){
 		if(browserName.equalsIgnoreCase("chrome")){
 			System.setProperty("webdriver.chrome.driver",ProjectPath+"\\src\\chromedriver.exe");
