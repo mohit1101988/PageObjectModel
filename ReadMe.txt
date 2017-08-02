@@ -34,3 +34,5 @@ Browser Factory
 This is not related to page Object model and can be implemented in any framework.
 It helps to take name of browser as input from the user while running testcases.
 Also it saves on the duplication of code related to setting up the browser exe file path and opening up browser, setting up implicit wait, maximizing window, etc
+
+#This is a dummy line. Need to be ignored.
